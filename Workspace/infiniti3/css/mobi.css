@@ -1,0 +1,162 @@
+.icon-menu {
+	color: #000;
+}
+.mobimenu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 240px;
+	height: 100%;
+	background: #00C5A7;
+	padding: 10px;
+	transform: translateX(-280px);
+	transition: transform 0.6s ease;
+	z-index:10;
+}
+.mobimenu li {
+	list-style-type: none;
+	margin-bottom: 10px;
+	
+}
+.mobimenu li  a {
+	color: #fff;
+	text-decoration: none;
+}
+.mobimenu.open {
+	transform: translateX(0);
+}
+i.nav-toggle {
+	font-size: 32px;
+    color: #fff;
+}
+.fixed-mobi-menu {
+	position: fixed;
+    left: 5%;
+    top: 0;
+    z-index: 9;
+	display: none;
+}
+.mobimenu img {
+	position: absolute;
+	top: 10px;
+	left: 220px;
+	width: 30px;
+}
+#chisla-mobi {
+	display: none;
+}
+
+@media (max-width: 576px) {
+	
+	#project, #team, #job, #price, #order, #contact {
+		display: none;
+	}
+	#main {
+		width: auto;
+	}
+	#main  nav {
+		display: none;
+	}
+
+
+	#mainContact {
+		position: static;
+		top: 5px;
+		right: 0;
+		text-align: center;
+	}
+	#large-header {
+		width: auto;
+		overflow: hidden;
+	}
+	#logo {
+		position: static;
+		margin-top: 20px;
+	}
+	#mainTite {
+		position: static;
+		width: auto;
+	}
+	#mainTite h1 {
+		color: #fff;
+		text-align: center;
+	}
+	#mainTite span {
+		text-align: center;
+	}
+	#mainText {
+		width: auto;
+	}
+	#mCSB_1_container {
+		padding-left: 15px;
+		color: #fff;
+	}
+	#mac {
+		top: 440px;
+		left: 0;	
+	}
+	#mac img {
+		width: 100%;
+		max-height: 210px;
+	}
+	#bookText {
+		top: 30px;
+		left: 93px;
+	}
+	.fixed-mobi-menu {
+		display: block;
+	}
+	#about {
+		width: auto;
+		padding: 15px;
+		height: auto;
+		
+	}
+	#about h2, #about h3 {
+		margin: 0;
+		margin-bottom: 25px;
+		text-align: center;
+		
+		
+	}
+	#aboutText, #aboutText2 {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	#aboutTitle, #aboutTitle2, #aboutText, #aboutText2{
+		position: static;
+	}
+	#chisla {
+		width: 100%;
+		position: static;
+		display: none;
+	}
+	.romb {
+		position: relative;
+	}
+	#romb1 {
+		top: 160px;
+		left: 95px;
+	}
+	#romb2 {
+		top: 70px;
+		left: 191px;
+	}
+	#romb3 {
+		top: 252px;
+		left: 8px;
+	}
+	#romb4 {
+		top: 116px;
+		left: 100px;
+	}
+	#romb5 {
+		top: -21px;
+		left: 95px;
+	}
+	#chisla-mobi {
+		display: block;
+		width: 100%;
+		
+	}
+}

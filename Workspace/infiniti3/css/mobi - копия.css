@@ -1,0 +1,59 @@
+@media (max-width: 576px) {
+	
+	
+	#about, #service, #project, #team, #job, #price, #order, #contact {
+		display: none;
+	}
+	#main {
+		width: auto;
+	}
+	#main  nav {
+		display: none;
+	}
+
+
+	#mainContact {
+		position: static;
+		top: 5px;
+		right: 0;
+		text-align: center;
+	}
+	#large-header {
+		width: auto;
+		overflow: hidden;
+	}
+	#logo {
+		position: static;
+		margin-top: 20px;
+	}
+	#mainTite {
+		position: static;
+		width: auto;
+	}
+	#mainTite h1 {
+		color: #fff;
+		text-align: center;
+	}
+	#mainTite span {
+		text-align: center;
+	}
+	#mainText {
+		width: auto;
+	}
+	#mCSB_1_container {
+		padding-left: 15px;
+		color: #fff;
+	}
+	#mac {
+		top: 440px;
+		left: 0;	
+	}
+	#mac img {
+		width: 100%;
+	}
+	#bookText {
+		top: 30px;
+		left: 133px;
+	}
+
+}

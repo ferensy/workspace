@@ -1,0 +1,5 @@
+DirectoryIndex index.html
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.scm-sg\.ru
+RewriteRule ^(.*)$ http://scm-sg.ru/$1 [R=permanent,L]
